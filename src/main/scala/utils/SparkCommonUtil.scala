@@ -11,7 +11,7 @@ object SparkCommonUtil {
 
   var dataDir = "src/data-files/"
   var appName = "sparkML"
-  var sparkMasterUrl = "local"
+  var sparkMasterUrl = "local[*]"
   var tempDir = "src/temp"
 
   var spSession:SparkSession  = null

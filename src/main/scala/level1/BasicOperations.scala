@@ -29,5 +29,4 @@ object BasicOperations extends App{
   for(x <- partialData)
     println(x)
 
-
 }
